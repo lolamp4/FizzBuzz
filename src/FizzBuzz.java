@@ -35,5 +35,6 @@ class FizzBuzz {
         }
         i++;
         return i;
+
     }
 }
