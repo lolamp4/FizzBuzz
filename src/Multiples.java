@@ -17,7 +17,7 @@ public class Multiples {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
-        if (divisibleBy3 && divisibleBy5) {
+        if (divisibleBy3 || divisibleBy5) {
             counter++;
         }
         i++;
